@@ -7,9 +7,6 @@ trigger:
 - master
 
 steps:
-- script: echo Hello, WS!
-  displayName: 'Run a one-line script'
-
 - task: WhiteSource@20
   inputs:
     projectName: 'open_ssl'
