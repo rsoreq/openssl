@@ -9,4 +9,4 @@ trigger:
 steps:
 - task: WhiteSource@20
   inputs:
-    projectName: 'open_ssl'
+    projectName: 'AZDO_open_ssl'
